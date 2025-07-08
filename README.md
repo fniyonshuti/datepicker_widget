@@ -2,16 +2,19 @@
 
 A simple Flutter widget for selecting a date, designed for real-world use cases like booking a meeting.
 
-## Features
-- Material 3 design
-- Shows the selected date in `dd-MM-yyyy` format
-- Button to open a date picker dialog
+## DatePicker Attributes
+- **initialDate**: The date that is initially selected when the picker is shown (defaults to today or the last selected date).
+- **firstDate**: The earliest date the user can select (set to 2000-01-01 in this app).
+- **lastDate**: The latest date the user can select (set to 2100-12-31 in this app).
+- **helpText**: The text displayed at the top of the date picker dialog (e.g., 'Select meeting date').
+- **onPressed**: The callback that opens the date picker dialog when the button is pressed.
+- **DateFormat**: Used to display the selected date in `dd-MM-yyyy` format.
 
 ## How to Run
 1. Ensure you have [Flutter](https://flutter.dev/docs/get-started/install) installed.
 2. Clone this repository:
    ```sh
-   git clone <>
+   git clone https://github.com/fniyonshuti/datepicker_widget.git
    cd datepicker_widget
    ```
 3. Get dependencies:
@@ -23,16 +26,19 @@ A simple Flutter widget for selecting a date, designed for real-world use cases 
    flutter run
    ```
 
-## Main Widget Attributes
-- **Selected Date Display:** Shows the currently selected date or a placeholder if none is selected.
-- **Date Picker Button:** Opens a Material 3 date picker dialog for user selection.
-- **Material 3 Theming:** Uses the latest Material Design for a modern look and feel.
+## Screenshots
 
-## Screenshot
+**Home Page**
 
-![Screenshot](assets/screenshot.png)
+![Home Page](assets/homepage.png)
 
-> Replace the above image with an actual screenshot after running the app.
+**DatePicker Dialog**
+
+![DatePicker Dialog](assets/datepickerdialogue.png)
+
+**Selectable Date Range**
+
+![Selectable Date Range](assets/selectable%20date%20range..png)
 
 ---
 
